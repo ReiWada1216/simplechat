@@ -158,6 +158,7 @@ export class BedrockChatbotStack extends cdk.Stack {
       role: lambdaRole,
       environment: {
         MODEL_ID: modelId,
+        COLAB_SERVER_URL: 'https://91bf-34-168-103-233.ngrok-free.app/generate'
       },
     });
 
