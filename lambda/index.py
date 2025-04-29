@@ -7,7 +7,7 @@ def handler(event, context):
     user_message = body["message"]
 
     # Colabサーバーのエンドポイント
-    url = "https://59e7-34-125-185-254.ngrok-free.app/generate"
+    url = "https://91bf-34-168-103-233.ngrok-free.app/generate"
 
     # Colab APIが期待するデータ形式に合わせる（promptにする）
     data = json.dumps({"prompt": user_message}).encode()
